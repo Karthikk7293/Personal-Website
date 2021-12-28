@@ -1,7 +1,7 @@
 var pname = document.getElementById('name')
 var pmail = document.getElementById('email')
-var Lmesage = document.getElementById('Message')
-var pmobile = document.getElementById('subject')
+var Lmesage = document.getElementById('message')
+var pmobile = document.getElementById('mobile')
 var errbox = document.getElementsByClassName('error')
 var submit = document.getElementById('submit-form')
 var charecters = /^[a-zA-Z]+$/
@@ -48,13 +48,9 @@ function validation(){
         
         errbox[0].innerHTML="Please Enter charecters only"
     }else{
-        errbox[0].innerHTML=""
+        errbox[0].innerHTML="";
         def=def+1;
     }
-        
-    
-    
-
 }
 
          // emailpart validation

@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
-  background: mintcream;
+  background: whitesmoke !important ;
 }
 
 a {
@@ -243,8 +243,6 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(/assets/img/pexels-johannes-plenio-1103970.jpg) top right no-repeat;
-  background-size: cover;
   position: relative;
 }
 @media (min-width: 992px) {
